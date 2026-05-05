@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="archmage"
+version="0.1.0"
+displayName="Archmage"
+description='''
+Master the six elements. Lightning, Water, Fire, Earth, Holy, Void.
+Each element has spells, armor, weapons, and a mastery tree.
+Defeat the elemental bosses. Unlock the prestige elements. Become the Archmage.
+'''
+[[dependencies.archmage]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.archmage]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
