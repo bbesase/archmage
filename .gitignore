@@ -21,3 +21,7 @@ runs/
 # OS
 .DS_Store
 Thumbs.db
+
+.vscode/
+bin/
+build/
