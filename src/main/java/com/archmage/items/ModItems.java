@@ -2,6 +2,7 @@ package com.archmage.items;
 import com.archmage.Archmage;
 import com.archmage.elements.ElementType;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -11,6 +12,9 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
         DeferredRegister.create(ForgeRegistries.ITEMS, Archmage.MOD_ID);
+
+    // Swords — one per element (legendary variants come later)
+    public static final RegistryObject<Item> LIGHTNING_SWORD = ITEMS.register("lightning_sword", () -> new ElementalSword(ElementType.LIGHTNING, Tiers.DIAMOND));
 
     // Staves — one standard + one legendary per element
     public static final RegistryObject<Item> LIGHTNING_STAFF   = ITEMS.register("lightning_staff",   () -> new ElementalStaff(ElementType.LIGHTNING, false));
