@@ -33,7 +33,7 @@ public class MasteryBonusHandler {
     private static final float[] RANGED_BONUS = { 0f, 0.5f, 1.5f, 2.5f, 4.0f, 6.0f };
 
     // Number of chains for ranged at each tier (Mage=1, Archmage=2, Elemental Lord=3)
-    private static final int[] RANGED_CHAINS  = { 0, 0, 0, 1, 2, 3 };
+    private static final int[] RANGED_CHAINS  = { 0, 1, 1, 2, 2, 3 };
 
     // Each chain hop deals 60% of the previous hit's damage
     private static final float CHAIN_FALLOFF = 0.6f;
