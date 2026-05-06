@@ -5,7 +5,7 @@ import com.archmage.elements.ElementType;
 import com.archmage.items.ModItems;
 import com.archmage.entities.ModEntities;
 import com.archmage.world.ModBiomes;
-import com.archmage.spells.SpellRegistry;
+import com.archmage.spells.ArchmageSpells;
 import com.archmage.mastery.MasterySystem;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -32,7 +32,7 @@ public class Archmage {
         ModItems.register(modEventBus);
         ModEntities.register(modEventBus);
         ModBiomes.register(modEventBus);
-        SpellRegistry.register(modEventBus);
+        ArchmageSpells.register(modEventBus);
         MasterySystem.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);

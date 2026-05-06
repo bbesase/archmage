@@ -4,7 +4,6 @@ import com.archmage.elements.ElementType;
 import com.archmage.mastery.MasteryData;
 import com.archmage.mastery.MasterySystem;
 import com.archmage.mastery.MasteryTier;
-import com.archmage.spells.SpellRegistry;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
@@ -65,13 +64,9 @@ public class ElementalStaff extends Item {
             return InteractionResultHolder.fail(player.getItemInHand(hand));
         }
 
-        // Cast! SpellRegistry handles cooldowns and mana checks
-        boolean cast = SpellRegistry.castActive(player, level, this.element);
-
-        if (cast) {
-            // Award XP — legendary staff gives bonus XP
-            mastery.addXp(this.element, isLegendary ? 25 : 10);
-        }
+        // TODO: Wire staff casting into Iron's Spells casting system
+        // For now, award XP directly as a placeholder
+        mastery.addXp(this.element, isLegendary ? 25 : 10);
 
         return InteractionResultHolder.success(player.getItemInHand(hand));
     }
