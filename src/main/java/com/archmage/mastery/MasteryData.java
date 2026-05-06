@@ -73,6 +73,15 @@ public class MasteryData {
         this.voidUnlocked = true;
     }
 
+    // --- Copy (used by capability provider on deserialize) ---
+
+    public void copyFrom(MasteryData other) {
+        this.xpMap.putAll(other.xpMap);
+        this.activeElement = other.activeElement;
+        this.holyUnlocked = other.holyUnlocked;
+        this.voidUnlocked = other.voidUnlocked;
+    }
+
     // --- NBT Serialization (save/load from disk) ---
 
     public CompoundTag save() {
