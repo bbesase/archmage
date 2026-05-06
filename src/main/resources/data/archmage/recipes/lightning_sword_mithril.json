@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [ " M ", " M ", " S " ],
+  "key": {
+    "M": { "item": "archmage:mithril_ingot" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": { "item": "archmage:lightning_sword_mithril", "count": 1 }
+}
