@@ -1,9 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [ " G ", " G ", " S " ],
+  "pattern": [ " G ", " L ", " K " ],
   "key": {
     "G": { "item": "minecraft:gold_ingot" },
-    "S": { "item": "minecraft:stick" }
+    "L": { "item": "archmage:lightning_shard" },
+    "K": { "item": "minecraft:stick" }
   },
   "result": { "item": "archmage:lightning_sword_gold", "count": 1 }
 }

@@ -1,9 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [ " A ", " A ", " S " ],
+  "pattern": [ " A ", " L ", " K " ],
   "key": {
     "A": { "item": "archmage:adamantite_ingot" },
-    "S": { "item": "minecraft:stick" }
+    "L": { "item": "archmage:lightning_shard" },
+    "K": { "item": "minecraft:stick" }
   },
   "result": { "item": "archmage:lightning_sword_adamantite", "count": 1 }
 }

@@ -2,6 +2,7 @@ package com.archmage;
 
 import com.archmage.core.ElementRegistry;
 import com.archmage.elements.ElementType;
+import com.archmage.items.ModBlocks;
 import com.archmage.items.ModItems;
 import com.archmage.entities.ModEntities;
 import com.archmage.world.ModBiomes;
@@ -32,6 +33,7 @@ public class Archmage {
         // Register all mod content (like importing and calling init() on each module)
         ElementRegistry.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         ModEntities.register(modEventBus);
         ModBiomes.register(modEventBus);
         ArchmageSpells.register(modEventBus);

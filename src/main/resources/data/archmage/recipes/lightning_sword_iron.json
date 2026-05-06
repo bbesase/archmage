@@ -1,9 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [ " I ", " I ", " S " ],
+  "pattern": [ " I ", " L ", " K " ],
   "key": {
     "I": { "item": "minecraft:iron_ingot" },
-    "S": { "item": "minecraft:stick" }
+    "L": { "item": "archmage:lightning_shard" },
+    "K": { "item": "minecraft:stick" }
   },
   "result": { "item": "archmage:lightning_sword_iron", "count": 1 }
 }

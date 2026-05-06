@@ -16,6 +16,7 @@ public class ModItems {
     // --- Crafting Materials ---
     public static final RegistryObject<Item> MITHRIL_INGOT    = ITEMS.register("mithril_ingot",    () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ADAMANTITE_INGOT = ITEMS.register("adamantite_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LIGHTNING_SHARD  = ITEMS.register("lightning_shard",  () -> new Item(new Item.Properties()));
     // TODO: VOLTITE_INGOT — drops from Thunder Realm boss
 
     // --- Lightning Swords ---
