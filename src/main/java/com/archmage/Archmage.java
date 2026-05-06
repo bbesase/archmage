@@ -7,6 +7,7 @@ import com.archmage.entities.ModEntities;
 import com.archmage.world.ModBiomes;
 import com.archmage.spells.ArchmageSpells;
 import com.archmage.mastery.MasteryBonusHandler;
+import com.archmage.mastery.MasteryCapabilityEvents;
 import com.archmage.mastery.MasterySystem;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -38,6 +39,7 @@ public class Archmage {
 
         MinecraftForge.EVENT_BUS.register(this);
         MinecraftForge.EVENT_BUS.register(new MasteryBonusHandler());
+        MinecraftForge.EVENT_BUS.register(new MasteryCapabilityEvents());
         LOGGER.info("Archmage initialized. The elements await.");
     }
 }
