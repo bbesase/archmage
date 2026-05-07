@@ -1,1 +1,10 @@
-{ "values": [] }
+{
+  "values": [
+    "archmage:lightning_sword_stone",
+    "archmage:lightning_sword_iron",
+    "archmage:lightning_sword_gold",
+    "archmage:lightning_sword_mithril",
+    "archmage:lightning_sword_adamantite",
+    "archmage:lightning_sword_diamond"
+  ]
+}
