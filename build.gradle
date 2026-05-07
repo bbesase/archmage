@@ -136,6 +136,14 @@ dependencies {
     runtimeOnly fg.deobf("top.theillusivec4.caelus:caelus-forge:3.2.0+1.20.1")
     runtimeOnly fg.deobf("software.bernie.geckolib:geckolib-forge-1.20.1:4.8.3")
     runtimeOnly fg.deobf("dev.kosmx.player-anim:player-animation-lib-forge:1.0.2-rc1+1.20")
+
+    // Unit testing — pure logic tests, no Minecraft class loading required
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+}
+
+test {
+    useJUnitPlatform()
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
