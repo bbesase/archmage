@@ -2,6 +2,7 @@ package com.archmage;
 
 import com.archmage.core.ElementRegistry;
 import com.archmage.elements.ElementType;
+import com.archmage.effects.ModEffects;
 import com.archmage.items.ModBlocks;
 import com.archmage.items.ModCreativeTabs;
 import com.archmage.items.ModItems;
@@ -36,6 +37,7 @@ public class Archmage {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
+        ModEffects.register(modEventBus);
         ModEntities.register(modEventBus);
         ModBiomes.register(modEventBus);
         ArchmageSpells.register(modEventBus);
