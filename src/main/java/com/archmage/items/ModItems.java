@@ -17,6 +17,11 @@ public class ModItems {
     public static final RegistryObject<Item> MITHRIL_INGOT    = ITEMS.register("mithril_ingot",    () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ADAMANTITE_INGOT = ITEMS.register("adamantite_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LIGHTNING_SHARD  = ITEMS.register("lightning_shard",  () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FROST_SHARD      = ITEMS.register("frost_shard",      () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> EMBER_SHARD      = ITEMS.register("ember_shard",      () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TERRA_SHARD      = ITEMS.register("terra_shard",      () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RADIANT_SHARD    = ITEMS.register("radiant_shard",    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> VOID_SHARD       = ITEMS.register("void_shard",       () -> new Item(new Item.Properties()));
     // TODO: VOLTITE_INGOT — drops from Thunder Realm boss
 
     // --- Lightning Swords ---
@@ -26,6 +31,46 @@ public class ModItems {
     public static final RegistryObject<Item> LIGHTNING_SWORD_MITHRIL    = ITEMS.register("lightning_sword_mithril",    () -> new ElementalSword(ElementType.LIGHTNING, ArchmageTier.MITHRIL));
     public static final RegistryObject<Item> LIGHTNING_SWORD_ADAMANTITE = ITEMS.register("lightning_sword_adamantite", () -> new ElementalSword(ElementType.LIGHTNING, ArchmageTier.ADAMANTITE));
     public static final RegistryObject<Item> LIGHTNING_SWORD_DIAMOND    = ITEMS.register("lightning_sword_diamond",    () -> new ElementalSword(ElementType.LIGHTNING, Tiers.DIAMOND));
+    // --- Water Swords ---
+    public static final RegistryObject<Item> WATER_SWORD_STONE      = ITEMS.register("water_sword_stone",      () -> new ElementalSword(ElementType.WATER, Tiers.STONE));
+    public static final RegistryObject<Item> WATER_SWORD_IRON       = ITEMS.register("water_sword_iron",       () -> new ElementalSword(ElementType.WATER, Tiers.IRON));
+    public static final RegistryObject<Item> WATER_SWORD_GOLD       = ITEMS.register("water_sword_gold",       () -> new ElementalSword(ElementType.WATER, Tiers.GOLD));
+    public static final RegistryObject<Item> WATER_SWORD_MITHRIL    = ITEMS.register("water_sword_mithril",    () -> new ElementalSword(ElementType.WATER, ArchmageTier.MITHRIL));
+    public static final RegistryObject<Item> WATER_SWORD_ADAMANTITE = ITEMS.register("water_sword_adamantite", () -> new ElementalSword(ElementType.WATER, ArchmageTier.ADAMANTITE));
+    public static final RegistryObject<Item> WATER_SWORD_DIAMOND    = ITEMS.register("water_sword_diamond",    () -> new ElementalSword(ElementType.WATER, Tiers.DIAMOND));
+
+    // --- Fire Swords ---
+    public static final RegistryObject<Item> FIRE_SWORD_STONE      = ITEMS.register("fire_sword_stone",      () -> new ElementalSword(ElementType.FIRE, Tiers.STONE));
+    public static final RegistryObject<Item> FIRE_SWORD_IRON       = ITEMS.register("fire_sword_iron",       () -> new ElementalSword(ElementType.FIRE, Tiers.IRON));
+    public static final RegistryObject<Item> FIRE_SWORD_GOLD       = ITEMS.register("fire_sword_gold",       () -> new ElementalSword(ElementType.FIRE, Tiers.GOLD));
+    public static final RegistryObject<Item> FIRE_SWORD_MITHRIL    = ITEMS.register("fire_sword_mithril",    () -> new ElementalSword(ElementType.FIRE, ArchmageTier.MITHRIL));
+    public static final RegistryObject<Item> FIRE_SWORD_ADAMANTITE = ITEMS.register("fire_sword_adamantite", () -> new ElementalSword(ElementType.FIRE, ArchmageTier.ADAMANTITE));
+    public static final RegistryObject<Item> FIRE_SWORD_DIAMOND    = ITEMS.register("fire_sword_diamond",    () -> new ElementalSword(ElementType.FIRE, Tiers.DIAMOND));
+
+    // --- Earth Swords ---
+    public static final RegistryObject<Item> EARTH_SWORD_STONE      = ITEMS.register("earth_sword_stone",      () -> new ElementalSword(ElementType.EARTH, Tiers.STONE));
+    public static final RegistryObject<Item> EARTH_SWORD_IRON       = ITEMS.register("earth_sword_iron",       () -> new ElementalSword(ElementType.EARTH, Tiers.IRON));
+    public static final RegistryObject<Item> EARTH_SWORD_GOLD       = ITEMS.register("earth_sword_gold",       () -> new ElementalSword(ElementType.EARTH, Tiers.GOLD));
+    public static final RegistryObject<Item> EARTH_SWORD_MITHRIL    = ITEMS.register("earth_sword_mithril",    () -> new ElementalSword(ElementType.EARTH, ArchmageTier.MITHRIL));
+    public static final RegistryObject<Item> EARTH_SWORD_ADAMANTITE = ITEMS.register("earth_sword_adamantite", () -> new ElementalSword(ElementType.EARTH, ArchmageTier.ADAMANTITE));
+    public static final RegistryObject<Item> EARTH_SWORD_DIAMOND    = ITEMS.register("earth_sword_diamond",    () -> new ElementalSword(ElementType.EARTH, Tiers.DIAMOND));
+
+    // --- Holy Swords ---
+    public static final RegistryObject<Item> HOLY_SWORD_STONE      = ITEMS.register("holy_sword_stone",      () -> new ElementalSword(ElementType.HOLY, Tiers.STONE));
+    public static final RegistryObject<Item> HOLY_SWORD_IRON       = ITEMS.register("holy_sword_iron",       () -> new ElementalSword(ElementType.HOLY, Tiers.IRON));
+    public static final RegistryObject<Item> HOLY_SWORD_GOLD       = ITEMS.register("holy_sword_gold",       () -> new ElementalSword(ElementType.HOLY, Tiers.GOLD));
+    public static final RegistryObject<Item> HOLY_SWORD_MITHRIL    = ITEMS.register("holy_sword_mithril",    () -> new ElementalSword(ElementType.HOLY, ArchmageTier.MITHRIL));
+    public static final RegistryObject<Item> HOLY_SWORD_ADAMANTITE = ITEMS.register("holy_sword_adamantite", () -> new ElementalSword(ElementType.HOLY, ArchmageTier.ADAMANTITE));
+    public static final RegistryObject<Item> HOLY_SWORD_DIAMOND    = ITEMS.register("holy_sword_diamond",    () -> new ElementalSword(ElementType.HOLY, Tiers.DIAMOND));
+
+    // --- Void Swords ---
+    public static final RegistryObject<Item> VOID_SWORD_STONE      = ITEMS.register("void_sword_stone",      () -> new ElementalSword(ElementType.VOID, Tiers.STONE));
+    public static final RegistryObject<Item> VOID_SWORD_IRON       = ITEMS.register("void_sword_iron",       () -> new ElementalSword(ElementType.VOID, Tiers.IRON));
+    public static final RegistryObject<Item> VOID_SWORD_GOLD       = ITEMS.register("void_sword_gold",       () -> new ElementalSword(ElementType.VOID, Tiers.GOLD));
+    public static final RegistryObject<Item> VOID_SWORD_MITHRIL    = ITEMS.register("void_sword_mithril",    () -> new ElementalSword(ElementType.VOID, ArchmageTier.MITHRIL));
+    public static final RegistryObject<Item> VOID_SWORD_ADAMANTITE = ITEMS.register("void_sword_adamantite", () -> new ElementalSword(ElementType.VOID, ArchmageTier.ADAMANTITE));
+    public static final RegistryObject<Item> VOID_SWORD_DIAMOND    = ITEMS.register("void_sword_diamond",    () -> new ElementalSword(ElementType.VOID, Tiers.DIAMOND));
+
     // TODO: LIGHTNING_SWORD_VOLTITE — endgame, requires Thunder Realm material
 
     // --- Staves — one standard + one legendary per element ---
