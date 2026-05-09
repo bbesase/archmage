@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#minecraft:is_overworld",
+  "biomes": "#archmage:has_radiant_ore",
   "features": "archmage:radiant_ore",
   "step": "underground_ores"
 }

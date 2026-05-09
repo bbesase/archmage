@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#minecraft:is_overworld",
+  "biomes": "#archmage:has_void_ore",
   "features": "archmage:void_ore",
   "step": "underground_ores"
 }
