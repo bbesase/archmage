@@ -23,3 +23,9 @@ Defeat the elemental bosses. Unlock the prestige elements. Become the Archmage.
     versionRange="[1.20.1,1.21)"
     ordering="NONE"
     side="BOTH"
+[[dependencies.archmage]]
+    modId="terrablender"
+    mandatory=true
+    versionRange="[3.0.1,)"
+    ordering="BEFORE"
+    side="BOTH"

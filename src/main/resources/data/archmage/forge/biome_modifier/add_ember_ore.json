@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#minecraft:is_overworld",
+  "biomes": "#archmage:has_ember_ore",
   "features": "archmage:ember_ore",
   "step": "underground_ores"
 }

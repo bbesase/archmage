@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#minecraft:is_overworld",
+  "biomes": "#archmage:has_frost_ore",
   "features": "archmage:frost_ore",
   "step": "underground_ores"
 }

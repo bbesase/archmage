@@ -118,6 +118,8 @@ repositories {
     maven { url 'https://maven.theillusivec4.top/' }
     maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
     maven { url 'https://maven.kosmx.dev/' }
+    // TerraBlender — biome injection library
+    maven { url 'https://maven.minecraftforge.net/releases/' }
 }
 
 dependencies {
@@ -136,6 +138,9 @@ dependencies {
     runtimeOnly fg.deobf("top.theillusivec4.caelus:caelus-forge:3.2.0+1.20.1")
     runtimeOnly fg.deobf("software.bernie.geckolib:geckolib-forge-1.20.1:4.8.3")
     runtimeOnly fg.deobf("dev.kosmx.player-anim:player-animation-lib-forge:1.0.2-rc1+1.20")
+
+    // TerraBlender — required for elemental biome generation in the overworld
+    implementation fg.deobf("com.github.glitchfiend:TerraBlender-forge:1.20.1-3.0.1.10")
 
     // Unit testing — pure logic tests, no Minecraft class loading required
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
