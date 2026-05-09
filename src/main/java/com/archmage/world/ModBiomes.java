@@ -45,8 +45,9 @@ public class ModBiomes {
     }
 
     private static void setup(FMLCommonSetupEvent event) {
-        event.enqueueWork(() ->
-            Regions.register(new ArchmageRegion(new ResourceLocation(MOD_ID, "overworld"), 4))
-        );
+        event.enqueueWork(() -> {
+            Regions.register(new ArchmageRegion(new ResourceLocation(MOD_ID, "overworld"), 4));
+            ArchmageSurfaceRules.register();
+        });
     }
 }

@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#archmage:has_lightning_ore",
+  "features": [
+    "minecraft:patch_dead_bush",
+    "minecraft:disk_gravel",
+    "minecraft:trees_plains",
+    "archmage:stormplains_rocks"
+  ],
+  "step": "vegetal_decoration"
+}

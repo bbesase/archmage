@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#archmage:has_frost_ore",
+  "features": [
+    "minecraft:freeze_top_layer",
+    "minecraft:ice_spike",
+    "minecraft:ice_patch",
+    "archmage:frozen_packed_ice_cluster"
+  ],
+  "step": "vegetal_decoration"
+}

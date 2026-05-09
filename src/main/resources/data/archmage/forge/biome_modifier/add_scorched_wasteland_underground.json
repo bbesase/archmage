@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#archmage:has_ember_ore",
+  "features": [
+    "archmage:scorched_magma_vein"
+  ],
+  "step": "underground_ores"
+}

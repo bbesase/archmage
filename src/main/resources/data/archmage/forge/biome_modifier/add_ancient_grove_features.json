@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#archmage:has_terra_ore",
+  "features": [
+    "minecraft:trees_jungle",
+    "minecraft:jungle_bush",
+    "minecraft:patch_large_fern",
+    "minecraft:patch_fern",
+    "minecraft:moss_patch",
+    "minecraft:large_dripstone",
+    "archmage:grove_moss_carpet"
+  ],
+  "step": "vegetal_decoration"
+}

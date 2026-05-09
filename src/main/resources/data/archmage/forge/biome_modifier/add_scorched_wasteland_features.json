@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#archmage:has_ember_ore",
+  "features": [
+    "minecraft:patch_dead_bush",
+    "minecraft:disk_sand"
+  ],
+  "step": "vegetal_decoration"
+}
